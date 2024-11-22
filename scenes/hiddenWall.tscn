@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://delhqp4yuqsst"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p1crh"]
+size = Vector2(32, 32)
+
+[node name="Platform" type="AnimatableBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 4.71239
+shape = SubResource("RectangleShape2D_p1crh")
+one_way_collision = true
