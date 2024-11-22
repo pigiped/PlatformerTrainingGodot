@@ -239,7 +239,7 @@ text = "You collected x coins!"
 horizontal_alignment = 1
 
 [node name="Player" parent="." instance=ExtResource("1_uk2dr")]
-position = Vector2(1135, -43)
+position = Vector2(1383, -61)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(0, -8)
